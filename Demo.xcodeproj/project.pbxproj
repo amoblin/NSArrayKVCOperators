@@ -13,6 +13,7 @@
 		DA3E25AD1C589ABA00B99F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3E25AB1C589ABA00B99F26 /* Main.storyboard */; };
 		DA3E25AF1C589ABA00B99F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3E25AE1C589ABA00B99F26 /* Assets.xcassets */; };
 		DA3E25B21C589ABA00B99F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3E25B01C589ABA00B99F26 /* LaunchScreen.storyboard */; };
+		DA3E25BB1C589AE100B99F26 /* NSArray+CustomKVOOperators.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3E25BA1C589AE100B99F26 /* NSArray+CustomKVOOperators.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DA3E25AE1C589ABA00B99F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3E25B11C589ABA00B99F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3E25B31C589ABA00B99F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3E25B91C589AE100B99F26 /* NSArray+CustomKVOOperators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CustomKVOOperators.h"; sourceTree = "<group>"; };
+		DA3E25BA1C589AE100B99F26 /* NSArray+CustomKVOOperators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CustomKVOOperators.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				DA3E25A61C589ABA00B99F26 /* AppDelegate.m */,
 				DA3E25A81C589ABA00B99F26 /* ViewController.h */,
 				DA3E25A91C589ABA00B99F26 /* ViewController.m */,
+				DA3E25B91C589AE100B99F26 /* NSArray+CustomKVOOperators.h */,
+				DA3E25BA1C589AE100B99F26 /* NSArray+CustomKVOOperators.m */,
 				DA3E25AB1C589ABA00B99F26 /* Main.storyboard */,
 				DA3E25AE1C589ABA00B99F26 /* Assets.xcassets */,
 				DA3E25B01C589ABA00B99F26 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3E25BB1C589AE100B99F26 /* NSArray+CustomKVOOperators.m in Sources */,
 				DA3E25AA1C589ABA00B99F26 /* ViewController.m in Sources */,
 				DA3E25A71C589ABA00B99F26 /* AppDelegate.m in Sources */,
 				DA3E25A41C589ABA00B99F26 /* main.m in Sources */,
